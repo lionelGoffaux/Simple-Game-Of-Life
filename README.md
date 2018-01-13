@@ -13,7 +13,7 @@ To setup the game you just have to create a div tag with the id of your choice a
 </body>
 ```
 
-Then you have to bind the id using the Game's bind methode with the ccs selector od your div tag as parameter
+Then you have to bind the id using the Game's bind methode with the ccs selector of your div tag as parameter
 
 ```javascript
 let app = Game.bind("#app")
