@@ -4,7 +4,7 @@ Why a game of life more? Just for fun
 
 ## How it works
 
-To setup the game you just have to create a div tag with the id of your choice and add 'game.js'
+To setup the game you just have to create a div tag with the id of your choice and add "game.js"
 
 ```html
 <body>
