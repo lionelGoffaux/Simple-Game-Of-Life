@@ -16,15 +16,13 @@ To setup the game you just have to create a div tag with the id of your choice a
 Then you have to bind the id using the Game's bind methode with the ccs selector od your div tag as parameter
 
 ```javascript
-<script>
-  let app = Game.bind("#app")
-</script>
+let app = Game.bind("#app")
 ```
 
 This methode can also take a second parameter to config some options of game in a object
 
 ```javascript
-  let app = Game.bind("#app", {tps: 10, cellSize: 5, canvasSize: 750, initCellNbr: 20})
+let app = Game.bind("#app", {tps: 10, cellSize: 5, canvasSize: 750, initCellNbr: 20})
 ```
 
 ## Options list
