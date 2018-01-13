@@ -19,7 +19,7 @@ Then you have to bind the id using the Game's bind methode with the ccs selector
 let app = Game.bind("#app")
 ```
 
-This methode can also take an object second parameter to config some game options
+This methode can also take an object as second parameter to config some game options
 
 ```javascript
 let app = Game.bind("#app", {tps: 10, cellSize: 5, canvasSize: 750, initCellNbr: 20})
