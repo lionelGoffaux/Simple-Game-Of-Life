@@ -30,4 +30,4 @@ let app = Game.bind("#app", {tps: 10, cellSize: 5, canvasSize: 750, initCellNbr:
 * **tps** : to set the number of turn per second of the game
 * **cellSize** : the size of a cell (px)
 * **canvasSize** : the size of the game's canvas (px)
-* **initCellNbr** : the number of initial cell
+* **initCellNbr** : the number of initial cells
