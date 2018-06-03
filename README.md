@@ -1,4 +1,4 @@
-# Simple-Game-Of-Life 
+# Simple-Game-Of-Life
 
 Why a game of life more? Just for fun
 
@@ -13,13 +13,13 @@ To setup the game you just have to create a div tag with the id of your choice a
 </body>
 ```
 
-Then you have to bind the id using the Game's bind methode with the ccs selector of your div tag as parameter
+Then you have to bind the id using the Game's bind method with the ccs selector of your div tag as parameter
 
 ```javascript
 let app = Game.bind("#app")
 ```
 
-This methode can also take an object as second parameter to config some game options
+This method can also take an object as second parameter to config some game options
 
 ```javascript
 let app = Game.bind("#app", {tps: 10, cellSize: 5, canvasSize: 750, initCellNbr: 20})
